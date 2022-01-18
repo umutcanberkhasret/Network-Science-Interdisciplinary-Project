@@ -51,7 +51,7 @@ def preProcessData(df):
             else:
                 tweet = {
                     "full_text": row['text'],
-                    "entities": row['entities']
+                    "entities": ast.literal_eval(row['entities'])
                 }
 
         # get Username & User Tag & Location & Verification status of account
@@ -71,7 +71,7 @@ def preProcessData(df):
 
         # get TweetID
         tweet["tweet_id"] = row['id']
-
+        # if not pd.isna(tweet['location']):
         tweets.append(tweet)
 
         del tweet
