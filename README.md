@@ -27,3 +27,6 @@ The general workflow was explained in steps below:
   - Calculating various network metrics and exporting them in CSV format. 
   - Tailoring the network design to our liking, exporting the final network picture. 
   - PDF and CDDF and gamma calculations and creating related plots based on the exported metrics
+
+
+For findings, check Gender-based Violence in Pakistan and Egypt final report.
